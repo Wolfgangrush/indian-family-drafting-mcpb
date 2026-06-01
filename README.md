@@ -56,7 +56,6 @@ Canonical privacy policy: **<https://wolfgangrush.github.io/privacy/>**
 Case content may attract privilege under **Section 132 BSA 2023** / **Section 126 IEA 1872**. The user remains professionally responsible.
 
 
-
 ## Architecture · how the six agents work
 
 This connector runs a strict six-agent pipeline locally on your machine:
@@ -127,13 +126,23 @@ This is the connector's contribution to your **Section 8(5) DPDP Act 2023** safe
 > only. Real values are re-substituted at the final docx render step on the
 > user's local machine. No real identifying data leaves the case folder.
 
+## Examples
+
+Three example prompts that demonstrate core functionality. Full prompt text with expected tool sequence is in `SAMPLE-CASES/README.md`.
+
+- *"Draft a divorce petition under Section 13(1)(ia) of the Hindu Marriage Act 1955 on cruelty grounds."*
+- *"Draft a Section 125 CrPC / Section 144 BNSS maintenance application before a Magistrate."*
+- *"Draft a Guardianship Court petition under the Guardians and Wards Act 1890 for custody."*
+
+See `SAMPLE-CASES/README.md` for the full prompt text and the expected tool-call sequence the Anthropic reviewer can use to exercise the pipeline end-to-end.
+
 ## License
 
 MIT.
 
 ## Publisher
 
-**Rushikesh R. Mahajan**, Advocate, Bombay HC Nagpur, publishing as **Wolfgang Rush**. advrushikeshravindramahajan@gmail.com
+**Wolfgang Rush** — independent open-source legal-tech publisher. Contact: wolfgangrush@gmail.com
 
 ## Source
 
