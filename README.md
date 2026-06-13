@@ -1,4 +1,4 @@
-# Wolfgang Rush — Indian Family Court Drafting
+# wolfgang_rush — Indian Family Court Drafting
 
 **MCPB Desktop Extension** for drafting pleadings before Indian Family Courts and the matrimonial-jurisdiction tier of District Courts.
 
@@ -92,7 +92,7 @@ This is the connector's contribution to your **Section 8(5) DPDP Act 2023** safe
 
 ## ⚖️ DPDP Act 2023 — what this means for you
 
-**Publisher position.** Wolfgang Rush, in its capacity as software publisher, is **neither a Data Fiduciary nor a Data Processor** under the DPDP Act 2023 in respect of this connector. The connector runs entirely on your machine. There is no Wolfgang Rush server, no telemetry, no API endpoint that the publisher controls. Section 2(i) requires "determining purpose and means of processing" — Wolfgang Rush determines neither.
+**Publisher position.** wolfgang_rush, in its capacity as software publisher, is **neither a Data Fiduciary nor a Data Processor** under the DPDP Act 2023 in respect of this connector. The connector runs entirely on your machine. There is no wolfgang_rush server, no telemetry, no API endpoint that the publisher controls. Section 2(i) requires "determining purpose and means of processing" — wolfgang_rush determines neither.
 
 **User position.** You — the advocate using this connector — are the **Data Fiduciary** for your own client's personal data. This was true before installing the connector and remains true after. Your obligations under Sections 4, 5, 6, 8, 9, 11, 13 of the DPDP Act 2023 continue independent of this connector.
 
@@ -142,7 +142,7 @@ MIT.
 
 ## Publisher
 
-**Wolfgang Rush** — independent open-source legal-tech publisher. Contact: wolfgangrush@gmail.com
+**wolfgang_rush** — independent open-source legal-tech publisher. Contact: wolfgangrush@gmail.com
 
 ## Source
 

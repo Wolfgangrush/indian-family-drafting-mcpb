@@ -1,7 +1,7 @@
-"""Build a filing-grade Bombay-HC-Nagpur reference.docx with locked Word styles.
+"""Build a filing-grade Bombay-HC reference.docx with locked Word styles.
 
 Matches the structural conventions of a validated filed Second Appeal pleading
-from the Bombay HC Nagpur Bench, supplied as the v0.2.3 filing-grade gold
+from the Bombay HC (your bench), supplied as the v0.2.3 filing-grade gold
 standard:
 
 - Body (Normal): TNR 14pt, 1.5 line spacing, justified, 0.5cm first-line indent
@@ -16,7 +16,7 @@ standard:
 - Title style: TNR 14pt bold centered (for statutory opening line like
   SECOND APPEAL UNDER SECTION 100 CPC — bold + UNDERLINED)
 - Tables: tblLayout=fixed; first-row bold centered; explicit cell margins
-- Page numbers: centered at TOP of page (Bombay HC Nagpur convention per the
+- Page numbers: centered at TOP of page (Bombay HC convention per the
   filed pleading — pages numbered at top center, not bottom)
 
 NOTE: Even with tblLayout=fixed locked, pandoc's pipe-table column widths are
@@ -184,7 +184,7 @@ def main():
     except KeyError:
         pass
 
-    # Page numbers at TOP CENTER (Bombay HC Nagpur convention per the
+    # Page numbers at TOP CENTER (Bombay HC convention per the
     # filed pleading — pages numbered at top, not bottom)
     section = doc.sections[0]
     header = section.header
@@ -205,7 +205,7 @@ def main():
     run.font.size = Pt(12)
 
     # Demo content for visual check + style anchor — pandoc replaces with draft
-    doc.add_paragraph("IN THE HIGH COURT OF JUDICATURE AT BOMBAY BENCH AT NAGPUR.",
+    doc.add_paragraph("IN THE HIGH COURT OF JUDICATURE AT BOMBAY BENCH AT [BENCH CITY].",
                       style="Heading 1")
     doc.add_paragraph("WRIT PETITION NO. _______ OF 2026", style="Heading 1")
     p = doc.add_paragraph("Style template — pandoc replaces this body. Normal style: TNR 14pt 1.5 spacing justified 0.5cm first-line indent.")

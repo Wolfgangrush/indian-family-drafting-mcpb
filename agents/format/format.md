@@ -23,7 +23,7 @@ Pre-substitute every personal-law-specific and State-specific value into the cas
 ## Outputs
 
 - `<case-folder>/format-shell.md` — case-type template with all placeholders filled:
-  - `{{family_config.court_designation}}` — e.g. *IN THE COURT OF THE FAMILY JUDGE AT NAGPUR* (Maharashtra Family Court) / *IN THE COURT OF THE DISTRICT JUDGE AT [PLACE]* (where Family Courts are not established under FCA 1984) / *IN THE COURT OF THE PRINCIPAL JUDGE, FAMILY COURT AT [PLACE]*
+  - `{{family_config.court_designation}}` — e.g. *IN THE COURT OF THE FAMILY JUDGE AT [PLACE]* (Maharashtra Family Court) / *IN THE COURT OF THE DISTRICT JUDGE AT [PLACE]* (where Family Courts are not established under FCA 1984) / *IN THE COURT OF THE PRINCIPAL JUDGE, FAMILY COURT AT [PLACE]*
   - `{{family_config.applicable_personal_law}}` — Hindu Marriage Act 1955 / Special Marriage Act 1954 / Indian Divorce Act 1869 / Parsi Marriage and Divorce Act 1936 / Muslim Personal Law / Section 125 BNSS / etc.
   - `{{family_config.state}}` — State name (drives State-specific Family-Court Rules + State-specific procedural overlays)
   - `{{family_config.territorial_jurisdiction}}` — last cohabitation place / petitioner's residence / marriage registration place (per Section 19 HMA / Section 31 SMA / etc.)

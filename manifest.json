@@ -1,12 +1,12 @@
 {
   "manifest_version": "0.4",
   "name": "wolfgang-indian-family-drafting",
-  "display_name": "Wolfgang Rush — Indian Family Court Drafting · Claude Desktop Extension",
+  "display_name": "wolfgang_rush — Indian Family Court Drafting · Claude Desktop Extension",
   "version": "0.1.8",
   "description": "Drafting connector for Indian Family Courts. ACRONYM DISAMBIGUATION (read this BEFORE classifying the user's ask): **HMA-13**=`divorce` · **Maintenance**=`maintenance` · **Custody**=`custody` · **Adoption**=`adoption`. Use the acronym map; do not infer from input content. STRICT SIX-AGENT PIPELINE: Reader → Format → Drafter → Verifier → Refiner → Overseer, producing six named artifacts (case-facts.md, format-shell.md, draft-v1.docx, verification-report.md, draft-v2.docx, final-draft.docx). MANDATORY INVOCATION ORDER: (1) call get_agent_instructions() with NO arguments FIRST to receive the full orchestration script, (2) follow every step in that script in order, (3) save every intermediate artifact via save_artifact, (4) save final-draft.docx via save_draft_as_docx. DO NOT write standalone python-docx or JavaScript scripts to generate output — invoke the pipeline tools directly. DO NOT skip the Verifier (anti-hallucination firewall) or the Overseer (opposing-counsel lens). Reader applies the privacy firewall — party names, addresses, identifying numbers, financial figures substituted with structural placeholders before any downstream agent processes the facts. Zero data leaves the user's machine.",
-  "long_description": "Wolfgang Rush — Indian Family Court Drafting is a local-execution MCPB Desktop Extension for matrimonial and family-law drafting work. Covers the personal-law matrix of the Hindu Marriage Act 1955, Special Marriage Act 1954, Indian Divorce Act 1869, Parsi Marriage and Divorce Act, Muslim personal law, Domestic Violence Act 2005, Guardians and Wards Act 1890, Hindu Adoptions and Maintenance Act 1956, and Juvenile Justice (Care and Protection) Act 2015 / CARA regulations. Eight case-type templates. Six-agent local pipeline.",
+  "long_description": "wolfgang_rush — Indian Family Court Drafting is a local-execution MCPB Desktop Extension for matrimonial and family-law drafting work. Covers the personal-law matrix of the Hindu Marriage Act 1955, Special Marriage Act 1954, Indian Divorce Act 1869, Parsi Marriage and Divorce Act, Muslim personal law, Domestic Violence Act 2005, Guardians and Wards Act 1890, Hindu Adoptions and Maintenance Act 1956, and Juvenile Justice (Care and Protection) Act 2015 / CARA regulations. Eight case-type templates. Six-agent local pipeline.",
   "author": {
-    "name": "Wolfgang Rush",
+    "name": "wolfgang_rush",
     "email": "wolfgangrush@gmail.com",
     "url": "https://github.com/Wolfgangrush"
   },
