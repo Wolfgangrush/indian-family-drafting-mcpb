@@ -1,3 +1,19 @@
+<div align="center">
+
+<img src="docs/banner.png" width="820"/>
+
+**Local-first drafting connector for the Indian Family Courts — divorce, maintenance, custody, and adoption.**
+
+Visit the live site: [wolfgangrush.github.io](https://wolfgangrush.github.io)
+
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+![MCPB connector](https://img.shields.io/badge/MCPB-connector-blue)
+![Local-first](https://img.shields.io/badge/local--first-sovereign-orange)
+![Forum](https://img.shields.io/badge/forum-Indian%20Family%20Courts-8A2BE2)
+
+</div>
+
+
 # wolfgang_rush — Indian Family Court Drafting
 
 **MCPB Desktop Extension** for drafting pleadings before Indian Family Courts and the matrimonial-jurisdiction tier of District Courts.
